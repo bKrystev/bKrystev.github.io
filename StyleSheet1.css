@@ -1,0 +1,84 @@
+﻿/*
+#FC4445
+#3FEEE6
+#55BCC9
+#97CAEF
+#CAFAFE
+*/
+body , html
+
+{
+    box-sizing:border-box;
+    height: 100%;
+    margin:0;
+}
+.bg {
+    background-image: url("Images/geom.jpg");
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+}
+ul {
+    position: fixed;
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li {
+    color: #CAFAFE;
+    float: left;
+    width: 25%;
+    
+}
+
+    li a {
+        display: block;
+        color: #FC4445;
+        
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        
+        li a:hover {
+            background-color: #111;
+        }
+
+
+.pars {
+    background: rgba(2, 48, 46, 0.4);
+    margin: 3% 7%;
+}
+.lorem {
+    font-size: 3vw;
+    margin: 5% 7%;
+    padding: 1%;
+    
+    color: #FC4445;
+    
+}
+.pic {
+    height:300px;
+    width:300px;
+    margin-right:2%;
+    float:left;
+}
+.gag{
+    height: 250px;
+    width:250px;
+    margin:1%;
+    float:right;
+}
+.bg2 {
+    height:250px;
+    width:60%;
+    margin-left:20%;
+}
