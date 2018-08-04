@@ -24,26 +24,26 @@ $(".toggler").click(function () {
 
 $(".animBtn").click(function () {
     
-    $(".submitP").animate({ left: "+=10px" }, 20);
+    $(".submitP").animate({ left: "+=40px" }, 40);
     
-    $(".submitP").animate({ left: "-=10px" }, 20);
-    $(".submitP").animate({ left: "+=10px" }, 20);
-    $(".submitP").animate({ left: "-=10px" }, 20);
-    $(".submitP").animate({ left: "+=10px" }, 20);
-    $(".submitP").animate({ left: "-=10px" }, 20);
+    $(".submitP").animate({ left: "-=40px" }, 40);
+    $(".submitP").animate({ left: "+=40px" }, 40);
+    $(".submitP").animate({ left: "-=40px" }, 40);
+    $(".submitP").animate({ left: "+=40px" }, 40);
+    $(".submitP").animate({ left: "-=40px" }, 40);
 
 });
 $("#left").click(function () {
-    $(".submitP").animate({ left: "-=10px" });
+    $(".submitP").animate({ left: "-=25px" },300);
 })
 
 $("#right").click(function () {
-    $(".submitP").animate({ left: "+=10px" });
+    $(".submitP").animate({ left: "+=25px" },300);
 })
 $("#down").click(function () {
-    $(".submitP").animate({ bottom: "-=10px" });
+    $(".submitP").animate({ bottom: "-=25px" },300);
 })
 $(".up").click(function () {
-    $(".submitP").animate({ bottom: "+=10px" });
+    $(".submitP").animate({ bottom: "+=25px" },300);
 })
 
