@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>PlayLIst</title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="jQuery.js"></script>
+</head>
+<body>
+    <div class="navLeft">
+        <ul class="buttons">
+            <li><button class="async">LESSON</button></li>
+            <li> <button class="collins">PHIL COLLINS</button></li>
+            <li><button class="toto">TOTO</button></li>
+            <li><button class="cliff">CLIFF</button></li>
+        </ul>
+        
+       
+        
+    </div>
+    <div>
+        <div class="videos async2">
+            <iframe width="965" height="543" src="https://www.youtube.com/embed/568g8hxJJp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos collins2">
+            <iframe width="724" height="543" src="https://www.youtube.com/embed/MN3x-kAbgFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos toto2">
+            <iframe width="965" height="543" src="https://www.youtube.com/embed/9GUrcEx7Guw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos cliff2">
+            <iframe width="965" height="543" src="https://www.youtube.com/embed/AJwwIDCeqoU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script>
+        function hidden() {
+            $(".videos").hide();
+        }
+
+        $(document).ready(hidden());
+
+        $(".collins").click(function () {
+            hidden();
+            $(".collins2").show();
+        })
+        $(".async").click(function () {
+            hidden();
+            $(".async2").show();
+        })
+        $(".toto").click(function () {
+            hidden();
+            $(".toto2").show();
+        })
+        $(".cliff").click(function () {
+            hidden();
+            $(".cliff2").show();
+        })
+
+
+
+    </script>
+</body>
+</html>

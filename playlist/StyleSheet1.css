@@ -1,0 +1,35 @@
+﻿body
+{
+box-sizing:border-box;
+background-color: #1A1A1D;
+height:100%;
+}
+button {
+   background-color:#6f2232;
+   margin:12px;
+   padding: 10px;
+   display:block;
+   border:none;
+   border-radius:8px;
+}
+.videos {
+    float: right;
+    margin: 3% 13% 0% 13%;
+    width:70%;
+    
+}
+iframe {
+    margin: 8% 13% 0% 0%;
+    float: left;
+}
+.buttons {
+    clear:both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 13%;
+    background-color: rgba(78, 78, 80, 0.1);
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
