@@ -2,6 +2,7 @@
 {
     height:100%;
     margin:0;
+    box-sizing:border-box;
 }
 .bg {
     background-image: url("macro.jpg");
@@ -10,17 +11,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
-}
-input {
-    width: 25em;
-    background-color: rgba(44, 37, 42, 0.7);
-    font-size: 22px;
-    padding: 10px;
-    margin-right:5%;
-    color:aliceblue;
-    text-align: center;
-    border:none;
-
 }
 .submitP {
     color: #fff;
@@ -37,8 +27,11 @@ input {
     font-size:169px;
     position:relative;
 }
+
+
 .p1{
     font-size: 5em;
+    text-align:center;
 }
 button {
     background-color: rgba(44, 37, 42, 1); 
@@ -51,14 +44,16 @@ button {
     border-radius:5px;
 }
 .topNav {
-    background-color: rgba(44, 37, 42, 0.6);
+    background-color: rgba(149, 173, 197, 0.1);
     padding: 2% 1% 5% 1%;
-
-
+    height: 15%;
 }
 .arrows {
-    width: 20%;
-    float:right;
+    width: 45%;
+   float:right;
+   text-align:center;
+   
+   
     
 }
 .up{
@@ -68,4 +63,28 @@ button {
 .bottom {
     width: 30%;
     text-align: center;
+    
+}
+.down{
+    width:30%;
+    margin:1% 31%;
+}
+.inputer{
+    
+    width: 45%;
+}
+.topBtn{
+    width:30%;
+    margin:1%;
+    float:left;
+}
+.inp1 {
+    width: 91%;
+    background-color: rgba(44, 37, 42, 0.7);
+    font-size: 22px;
+    padding: 10px;
+   margin-right:5%;
+    color: aliceblue;
+    text-align: center;
+    border: none;
 }
