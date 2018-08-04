@@ -10,53 +10,44 @@
 <body>
     <div class="navLeft">
         <ul class="buttons">
-            <li><button class="async">LESSON</button></li>
-            <li> <button class="collins">PHIL COLLINS</button></li>
-            <li><button class="toto">TOTO</button></li>
-            <li><button class="cliff">CLIFF</button></li>
+            
+            <li class="collins">Phil Collins - In the Air Tonight</li>
+            <li class="toto">Toto - Africa</li>
+            <li class="cliff">Cliff Richard - Devil Woman</li>
+            <li class="eagles">Eagles - Hotel California</li>
+            <li class="beatles">Beatles - Come Together</li>
+            <li class="mJ">Michael Jackson - Give In To Me</li>
+            <li class="rainbow">Rainbow - Temple Of The King</li>
+            <li class="velvet">Alannah Myles - Black Velvet </li>
         </ul>
         
        
         
     </div>
-    <div>
-        <div class="videos async2">
-            <iframe width="965" height="543" src="https://www.youtube.com/embed/568g8hxJJp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div class="videos collins2">
-            <iframe width="724" height="543" src="https://www.youtube.com/embed/MN3x-kAbgFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div class="videos toto2">
-            <iframe width="965" height="543" src="https://www.youtube.com/embed/9GUrcEx7Guw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div class="videos cliff2">
-            <iframe width="965" height="543" src="https://www.youtube.com/embed/AJwwIDCeqoU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+    <div class="videoWrapper">
+        <div class="videos collins"><iframe width="724" height="543" src="https://www.youtube.com/embed/MN3x-kAbgFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        <div class="videos toto"> <iframe width="965" height="543" src="https://www.youtube.com/embed/wGjtv2jHKrg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>        </div>
+        <div class="videos cliff"> <iframe width="965" height="543" src="https://www.youtube.com/embed/AJwwIDCeqoU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        <div class="videos eagles"><iframe width="965" height="543" src="https://www.youtube.com/embed/Cck1TMtVedA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        <div class="videos beatles"><iframe width="965" height="543" src="https://www.youtube.com/embed/45cYwDMibGo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        <div class="videos mJ "><iframe width="724" height="543" src="https://www.youtube.com/embed/LJ7qXHjxj_0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        <div class="videos rainbow"><iframe width="724" height="543" src="https://www.youtube.com/embed/ZUpxniZBb5s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        <div class="videos velvet"><iframe width="965" height="543" src="https://www.youtube.com/embed/tT4d1LQy4es" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+
     </div>
 
     <script>
         function hidden() {
             $(".videos").hide();
         }
-
         $(document).ready(hidden());
 
-        $(".collins").click(function () {
+        $("li").click(function () {
             hidden();
-            $(".collins2").show();
+            $(`.${$(this).attr("class")}`).show();
         })
-        $(".async").click(function () {
-            hidden();
-            $(".async2").show();
-        })
-        $(".toto").click(function () {
-            hidden();
-            $(".toto2").show();
-        })
-        $(".cliff").click(function () {
-            hidden();
-            $(".cliff2").show();
-        })
+
+        
 
 
 
