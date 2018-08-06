@@ -44,8 +44,17 @@
 
         $("li").click(function () {
             hidden();
-            $(`.${$(this).attr("class")}`).show();
+            $(`.${$(this).attr("class")}`).show();  
+            
         })
+
+        var stopVideo = function (element) {
+            var iframe =$('iframe');
+            if (iframe) {
+                var iframeSrc = iframe.src;
+                iframe.src = iframeSrc;
+            }          
+        };
 
         
 
