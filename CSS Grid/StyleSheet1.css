@@ -18,3 +18,9 @@
         opacity: 1;
         box-shadow: 3px 3px 3px gray;
     }
+.text{
+    border:1px solid gray;
+    box-shadow: 1px 1px 3px 3px gray;
+    padding:8px;
+    font-size:1.8em;
+}
