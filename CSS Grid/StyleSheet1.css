@@ -23,4 +23,5 @@
     box-shadow: 1px 1px 3px 3px gray;
     padding:8px;
     font-size:1.8em;
+    overflow:hidden;
 }
