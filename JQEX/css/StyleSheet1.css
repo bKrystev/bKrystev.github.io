@@ -27,8 +27,6 @@
     font-size:169px;
     position:relative;  
 }
-
-
 .p1{
     font-size: 5em;
     text-align:center;
@@ -37,8 +35,7 @@ button {
     background-color: rgba(44, 37, 42, 1); 
     border: none;
     color: white;
-    padding: 14px;
-    
+    padding: 14px;  
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -80,8 +77,17 @@ button {
     background-color: rgba(44, 37, 42, 0.7);
     font-size: 22px;
     padding: 10px;
-   margin-right:5%;
+    margin-right:5%;
     color: aliceblue;
     text-align: center;
     border: none;
+}
+.Home {
+    background-color: rgba(44, 37, 42, 1);
+    color:white;
+    
+}
+.home {
+    background-color: rgba(44, 37, 42, 1);
+    text-align:center;
 }

@@ -1,4 +1,13 @@
-﻿.container {
+﻿.topNav{
+    width:100%;
+    background-color:rgba(110 , 113 , 119 ,0.4);
+    position:fixed;
+    top:0;
+    float:left;
+   
+}
+.container {
+    margin-top:120px;
     display: grid;
     grid-gap: 22px;
     grid-template-columns:repeat(auto-fill , minmax(200px , 1fr));
@@ -24,4 +33,14 @@
     padding:8px;
     font-size:1.8em;
     overflow:hidden;
+}
+
+.Home{
+    border:1px solid gray;
+    box-shadow:1px 1px 3px 3px gray;
+    padding: 14px;
+    text-align:center;
+    font-size:2em;
+    height:61%;
+    padding-top:35%;
 }
