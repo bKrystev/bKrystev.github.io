@@ -29,6 +29,12 @@ li {
     margin:3px;
     font-size:22px;
 }
+li:hover{
+    transform:scale(1.06);
+    cursor:pointer;
+    background-color:#c3073f;
+    color:lightgray;
+}
 .Home{
     color:gray;
 }
