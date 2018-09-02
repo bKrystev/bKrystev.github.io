@@ -3,7 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>PlayLIst</title>
+    <title>SongList</title>
     <link href="StyleSheet1.css" rel="stylesheet" />
     <script src="jQuery.js"></script>
 </head>
@@ -41,18 +41,10 @@
 
         $("li").click(function () {
             hidden();
+            
             $(`.${$(this).attr("class")}`).show();  
             
         })
-
-        var stopVideo = function (element) {
-            var iframe =$('iframe');
-            if (iframe) {
-                var iframeSrc = iframe.src;
-                iframe.src = iframeSrc;
-            }          
-        };
-
     </script>
 </body>
 </html>
